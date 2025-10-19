@@ -10,6 +10,6 @@ do
         size=$(ls -lh "$file" | awk '{print $5}') 
         echo "size of $file: $size"
   else
-        echo "⚠️  File $file not found"
+        echo "File $file not found"
   fi
 done  
