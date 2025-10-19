@@ -2,7 +2,7 @@
 
 #!/bin/bash
 
-filenames=("dev1.txt", "dev2.txt", "dev3.txt")
+filenames=("dev1.txt" "dev2.txt" "dev3.txt")
 
 for file in "${filenames[@]}";
 do 
