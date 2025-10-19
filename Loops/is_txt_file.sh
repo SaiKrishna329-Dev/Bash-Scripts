@@ -12,4 +12,3 @@ do
     echo "number of lines in $file:$num"
   fi
 done      
-  

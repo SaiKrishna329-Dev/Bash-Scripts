@@ -13,3 +13,12 @@ do
         echo "File $file not found"
   fi
 done  
+
+#Loop through an array of names and print a greeting for each.
+
+names=("Tom" "Jerry" "Mickey")
+
+for name in ${names[@]}
+do 
+  echo "Hi $name, welcome to the DevOps"
+done 
